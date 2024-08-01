@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'first', #장고에서 first 폴더 인식
     'second',
+    'third',
 ]
 
 MIDDLEWARE = [

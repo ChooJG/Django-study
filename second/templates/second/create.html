@@ -1,0 +1,8 @@
+<form action="{% url 'create' %}" method="post">
+    <!--사용자마다 고유의 토큰값 할당-->
+    {% csrf_token %}
+    <table>
+        {{ form.as_table }}
+    </table>
+    <button type="submit">제출</button>
+</form>

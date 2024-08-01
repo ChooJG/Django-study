@@ -22,5 +22,6 @@ urlpatterns = [
     #관리 용이하게 하기 위해 루트 디렉토리의 urls.py에는 한줄만 추가하도록
     path('first/', include('first.urls')),
     path('second/', include('second.urls')),
+    path('third/', include('third.urls')),
     path('admin/', admin.site.urls),
 ]
